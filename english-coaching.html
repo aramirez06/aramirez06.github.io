@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Tutoring - Alex Ramirez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="english-coaching.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Alex Ramirez</a>
+            <div class="nav-right">
+                <div class="lang-toggle">
+                    <button class="lang-btn active" id="btnEN" onclick="setLang('en')">EN</button>
+                    <button class="lang-btn"         id="btnES" onclick="setLang('es')">ES</button>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#home"       data-en="Home"             data-es="Inicio">Home</a></li>
+                <li><a href="index.html#portfolio"   data-en="Portfolio"        data-es="Portafolio">Portfolio</a></li>
+                <li><a href="index.html#tutoring"    data-en="Spanish Tutoring" data-es="Clases de Español">Spanish Tutoring</a></li>
+                <li><a href="english-coaching.html" class="active" data-en="English Tutoring" data-es="Tutoría de Inglés">English Tutoring</a></li>
+                <li><a href="index.html#skills"      data-en="Skills"           data-es="Habilidades">Skills</a></li>
+                <li><a href="index.html#contact"     data-en="Contact"          data-es="Contacto">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero lang-fade" id="home">
+        <h1 data-en="English Tutoring" data-es="Tutoría de Inglés">English Tutoring</h1>
+        <p class="tagline"
+           data-en="Build real confidence speaking English — in everyday conversation and professional interviews"
+           data-es="Gana confianza real hablando inglés — en conversación cotidiana y entrevistas profesionales">
+            Build real confidence speaking English — in everyday conversation and professional interviews
+        </p>
+        <div class="hero-badges">
+            <span class="hero-badge" data-en="💬 Conversational English" data-es="💬 Inglés Conversacional">💬 Conversational English</span>
+            <span class="hero-badge" data-en="🎯 Interview Preparation"  data-es="🎯 Preparación de Entrevistas">🎯 Interview Preparation</span>
+            <span class="hero-badge" data-en="🌎 Native-level guidance"  data-es="🌎 Guía a nivel nativo">🌎 Native-level guidance</span>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services lang-fade" id="services">
+        <div class="container">
+            <h2 class="section-title" data-en="What I Offer" data-es="Lo Que Ofrezco">What I Offer</h2>
+            <p class="section-subtitle"
+               data-en="Whether you want to feel more comfortable in everyday situations or nail your next job interview in English, I can help you get there."
+               data-es="Ya sea que quieras sentirte más cómodo en situaciones cotidianas o destacar en tu próxima entrevista de trabajo en inglés, puedo ayudarte a lograrlo.">
+                Whether you want to feel more comfortable in everyday situations or nail your next job interview in English, I can help you get there.
+            </p>
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <div class="service-icon">💬</div>
+                    <h3 data-en="Conversational English Practice" data-es="Práctica de Inglés Conversacional">Conversational English Practice</h3>
+                    <p data-en="Improve your fluency and confidence through real, natural conversation. No scripts — just genuine dialogue that mirrors the English you'll use daily."
+                       data-es="Mejora tu fluidez y confianza a través de conversaciones reales y naturales. Sin guiones — solo diálogo genuino que refleja el inglés que usarás a diario.">
+                        Improve your fluency and confidence through real, natural conversation. No scripts — just genuine dialogue that mirrors the English you'll use daily.
+                    </p>
+                    <ul class="service-list">
+                        <li data-en="Practice everyday topics: work, travel, hobbies, news"   data-es="Practica temas cotidianos: trabajo, viajes, pasatiempos, noticias">Practice everyday topics: work, travel, hobbies, news</li>
+                        <li data-en="Pronunciation and natural rhythm feedback"               data-es="Retroalimentación sobre pronunciación y ritmo natural">Pronunciation and natural rhythm feedback</li>
+                        <li data-en="Expand your vocabulary in context"                       data-es="Amplía tu vocabulario en contexto">Expand your vocabulary in context</li>
+                        <li data-en="Build confidence to speak without hesitation"            data-es="Gana confianza para hablar sin dudarlo">Build confidence to speak without hesitation</li>
+                        <li data-en="Understand native speaker idioms and expressions"        data-es="Comprende modismos y expresiones de hablantes nativos">Understand native speaker idioms and expressions</li>
+                        <li data-en="Real-time corrections, explained naturally"              data-es="Correcciones en tiempo real, explicadas de forma natural">Real-time corrections, explained naturally</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3 data-en="English Interview Preparation" data-es="Preparación de Entrevistas en Inglés">English Interview Preparation</h3>
+                    <p data-en="Get ready to impress in English-language job interviews. We'll practice common questions, sharpen your answers, and make sure you sound clear and professional."
+                       data-es="Prepárate para impresionar en entrevistas de trabajo en inglés. Practicaremos preguntas comunes, puliremos tus respuestas y aseguraremos que suenes claro y profesional.">
+                        Get ready to impress in English-language job interviews. We'll practice common questions, sharpen your answers, and make sure you sound clear and professional.
+                    </p>
+                    <ul class="service-list">
+                        <li data-en="Mock interviews tailored to your industry"              data-es="Entrevistas simuladas adaptadas a tu industria">Mock interviews tailored to your industry</li>
+                        <li data-en="Structure answers using the STAR method"                data-es="Estructura tus respuestas con el método STAR">Structure answers using the STAR method</li>
+                        <li data-en="Confident responses to behavioral questions"            data-es="Respuestas seguras a preguntas de comportamiento">Confident responses to behavioral questions</li>
+                        <li data-en="Professional vocabulary for your field"                 data-es="Vocabulario profesional para tu área">Professional vocabulary for your field</li>
+                        <li data-en="Handle unexpected questions with poise"                 data-es="Maneja preguntas inesperadas con aplomo">Handle unexpected questions with poise</li>
+                        <li data-en="Detailed feedback after every session"                  data-es="Retroalimentación detallada después de cada sesión">Detailed feedback after every session</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-it-works lang-fade" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title" data-en="How It Works" data-es="¿Cómo Funciona?">How It Works</h2>
+            <p class="section-subtitle"
+               data-en="Simple, flexible, and built around your schedule and goals."
+               data-es="Simple, flexible y adaptado a tu horario y objetivos.">
+                Simple, flexible, and built around your schedule and goals.
+            </p>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 data-en="Reach Out"       data-es="Contáctame">Reach Out</h3>
+                    <p  data-en="Fill out the contact form below and let me know your goal — conversation practice, interview prep, or both."
+                        data-es="Llena el formulario de contacto y cuéntame tu objetivo — práctica de conversación, preparación de entrevistas, o ambos.">
+                        Fill out the contact form below and let me know your goal — conversation practice, interview prep, or both.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 data-en="Free Intro Call"   data-es="Llamada Inicial Gratis">Free Intro Call</h3>
+                    <p  data-en="We'll do a quick 15-minute chat to assess your current level and figure out the best plan for you."
+                        data-es="Haremos una breve llamada de 15 minutos para evaluar tu nivel actual y definir el mejor plan para ti.">
+                        We'll do a quick 15-minute chat to assess your current level and figure out the best plan for you.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 data-en="Schedule Sessions"  data-es="Agenda tus Sesiones">Schedule Sessions</h3>
+                    <p  data-en="We set up recurring or one-off sessions at a time that works for you, fully online via video call."
+                        data-es="Programamos sesiones recurrentes o únicas en el horario que más te convenga, completamente en línea por videollamada.">
+                        We set up recurring or one-off sessions at a time that works for you, fully online via video call.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 data-en="Practice &amp; Improve" data-es="Practica y Mejora">Practice &amp; Improve</h3>
+                    <p  data-en="Each session you'll get focused practice plus actionable feedback so you improve every time."
+                        data-es="En cada sesión tendrás práctica enfocada más retroalimentación concreta para mejorar en cada encuentro.">
+                        Each session you'll get focused practice plus actionable feedback so you improve every time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOPICS -->
+    <section class="topics lang-fade" id="topics">
+        <div class="container">
+            <h2 class="section-title" data-en="Topics We Cover" data-es="Temas que Cubrimos">Topics We Cover</h2>
+            <p class="section-subtitle"
+               data-en="Sessions are flexible and shaped around what you need most."
+               data-es="Las sesiones son flexibles y se adaptan a lo que más necesitas.">
+                Sessions are flexible and shaped around what you need most.
+            </p>
+            <div class="topics-grid">
+                <div class="topic-group">
+                    <h3 data-en="💬 Conversational Topics" data-es="💬 Temas Conversacionales">💬 Conversational Topics</h3>
+                    <div class="topic-tags">
+                        <span class="topic-tag" data-en="Small talk"           data-es="Charla casual">Small talk</span>
+                        <span class="topic-tag" data-en="Work &amp; career"    data-es="Trabajo y carrera">Work &amp; career</span>
+                        <span class="topic-tag" data-en="Current events"       data-es="Actualidad">Current events</span>
+                        <span class="topic-tag" data-en="Travel &amp; culture" data-es="Viajes y cultura">Travel &amp; culture</span>
+                        <span class="topic-tag" data-en="Expressing opinions"  data-es="Expresar opiniones">Expressing opinions</span>
+                        <span class="topic-tag" data-en="Disagreeing politely" data-es="Disentir con respeto">Disagreeing politely</span>
+                        <span class="topic-tag" data-en="Idioms &amp; slang"   data-es="Modismos y jerga">Idioms &amp; slang</span>
+                        <span class="topic-tag" data-en="Networking"           data-es="Networking">Networking</span>
+                        <span class="topic-tag" data-en="Storytelling"         data-es="Narrativa">Storytelling</span>
+                        <span class="topic-tag" data-en="Humor &amp; tone"     data-es="Humor y tono">Humor &amp; tone</span>
+                    </div>
+                </div>
+                <div class="topic-group">
+                    <h3 data-en="🎯 Interview Topics" data-es="🎯 Temas de Entrevista">🎯 Interview Topics</h3>
+                    <div class="topic-tags">
+                        <span class="topic-tag secondary" data-en="Tell me about yourself"     data-es="Háblame de ti">Tell me about yourself</span>
+                        <span class="topic-tag secondary" data-en="Strengths &amp; weaknesses" data-es="Fortalezas y debilidades">Strengths &amp; weaknesses</span>
+                        <span class="topic-tag secondary" data-en="Behavioral questions"       data-es="Preguntas de comportamiento">Behavioral questions</span>
+                        <span class="topic-tag secondary" data-en="STAR method"                data-es="Método STAR">STAR method</span>
+                        <span class="topic-tag secondary" data-en="Salary negotiation"         data-es="Negociación salarial">Salary negotiation</span>
+                        <span class="topic-tag secondary" data-en="Questions to ask"           data-es="Preguntas para hacer">Questions to ask</span>
+                        <span class="topic-tag secondary" data-en="Tech interviews"            data-es="Entrevistas técnicas">Tech interviews</span>
+                        <span class="topic-tag secondary" data-en="Leadership scenarios"       data-es="Escenarios de liderazgo">Leadership scenarios</span>
+                        <span class="topic-tag secondary" data-en="Industry vocabulary"        data-es="Vocabulario de la industria">Industry vocabulary</span>
+                        <span class="topic-tag secondary" data-en="Follow-up emails"           data-es="Emails de seguimiento">Follow-up emails</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY ME -->
+    <section class="why-me lang-fade" id="why-me">
+        <div class="container">
+            <h2 class="section-title" data-en="Why Work With Me?" data-es="¿Por Qué Trabajar Conmigo?">Why Work With Me?</h2>
+            <p class="section-subtitle"
+               data-en="I bring a unique combination of professional experience, bilingual fluency, and a genuine passion for helping people grow."
+               data-es="Aporto una combinación única de experiencia profesional, fluidez bilingüe y una pasión genuina por ayudar a las personas a crecer.">
+                I bring a unique combination of professional experience, bilingual fluency, and a genuine passion for helping people grow.
+            </p>
+            <div class="why-me-content">
+                <div class="why-card">
+                    <div class="why-icon">🌐</div>
+                    <h3 data-en="Truly Bilingual"         data-es="Verdaderamente Bilingüe">Truly Bilingual</h3>
+                    <p  data-en="As a native Spanish speaker who works professionally in English, I understand the real challenges of crossing that language gap."
+                        data-es="Como hispanohablante nativo que trabaja profesionalmente en inglés, entiendo los verdaderos desafíos de cruzar esa barrera lingüística.">
+                        As a native Spanish speaker who works professionally in English, I understand the real challenges of crossing that language gap.
+                    </p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">💼</div>
+                    <h3 data-en="Professional Background" data-es="Experiencia Profesional">Professional Background</h3>
+                    <p  data-en="4+ years writing technical documentation for global companies means I know what professional English actually sounds like in the workplace."
+                        data-es="Más de 4 años redactando documentación técnica para empresas globales significa que sé cómo suena el inglés profesional en el entorno laboral.">
+                        4+ years writing technical documentation for global companies means I know what professional English actually sounds like in the workplace.
+                    </p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🎓</div>
+                    <h3 data-en="Already a Tutor"         data-es="Ya Soy Tutor">Already a Tutor</h3>
+                    <p  data-en="I've been helping people learn Spanish for years. Teaching languages is something I'm genuinely passionate about — not just a side gig."
+                        data-es="Llevo años ayudando a personas a aprender español. Enseñar idiomas es algo por lo que siento una verdadera pasión — no solo un ingreso extra.">
+                        I've been helping people learn Spanish for years. Teaching languages is something I'm genuinely passionate about — not just a side gig.
+                    </p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🤝</div>
+                    <h3 data-en="Judgment-Free Zone"      data-es="Sin Juicios">Judgment-Free Zone</h3>
+                    <p  data-en="Every session is a safe space. Making mistakes is part of learning — I'll gently correct you and always explain the why."
+                        data-es="Cada sesión es un espacio seguro. Cometer errores es parte del aprendizaje — te corregiré con amabilidad y siempre explicaré el porqué.">
+                        Every session is a safe space. Making mistakes is part of learning — I'll gently correct you and always explain the why.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact lang-fade" id="contact">
+        <div class="container">
+            <h2 class="section-title" style="color: white;"
+                data-en="Book a Free Intro Call" data-es="Agenda una Llamada Inicial Gratis">Book a Free Intro Call</h2>
+            <p class="contact-intro"
+               data-en="Ready to get started? Send me a message and let's set up your free 15-minute intro session!"
+               data-es="¿Listo para empezar? Envíame un mensaje y coordinemos tu sesión inicial gratuita de 15 minutos.">
+                Ready to get started? Send me a message and let's set up your free 15-minute intro session!
+            </p>
+            <form action="https://formspree.io/f/mzdpgerg" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name" data-en="Name" data-es="Nombre">Name</label>
+                    <input type="text" id="name" name="name"
+                           data-ph-en="Your name" data-ph-es="Tu nombre"
+                           placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-en="Email" data-es="Correo electrónico">Email</label>
+                    <input type="email" id="email" name="email"
+                           data-ph-en="your@email.com" data-ph-es="tu@correo.com"
+                           placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="service"
+                           data-en="I'm interested in..."
+                           data-es="Me interesa...">I'm interested in...</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected
+                                data-en="Select a service"
+                                data-es="Selecciona un servicio">Select a service</option>
+                        <option value="conversational"
+                                data-en="Conversational English Practice"
+                                data-es="Práctica de Inglés Conversacional">Conversational English Practice</option>
+                        <option value="interview"
+                                data-en="Interview Preparation"
+                                data-es="Preparación de Entrevistas">Interview Preparation</option>
+                        <option value="both"
+                                data-en="Both — Conversation &amp; Interview Prep"
+                                data-es="Ambos — Conversación y Entrevistas">Both — Conversation &amp; Interview Prep</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message"
+                           data-en="Tell me a bit about your goals"
+                           data-es="Cuéntame un poco sobre tus objetivos">Tell me a bit about your goals</label>
+                    <textarea id="message" name="message" rows="5"
+                              data-ph-en="e.g. I have a job interview coming up next month and want to practice..."
+                              data-ph-es="Ej. Tengo una entrevista de trabajo el próximo mes y quiero practicar..."
+                              placeholder="e.g. I have a job interview coming up next month and want to practice..."
+                              required></textarea>
+                </div>
+                <button type="submit" class="submit-button"
+                        data-en="Send Message →" data-es="Enviar Mensaje →">Send Message →</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="lang-fade">
+        <p>&copy; 2024 Alex Ramirez. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/alexander-ramirez-ba2b4a51/" target="_blank">LinkedIn</a>
+            <a href="index.html" data-en="Back to Portfolio" data-es="Volver al Portafolio">Back to Portfolio</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Language Toggle
+        let currentLang = 'en';
+
+        function setLang(lang) {
+            if (lang === currentLang) return;
+            currentLang = lang;
+
+            document.getElementById('btnEN').classList.toggle('active', lang === 'en');
+            document.getElementById('btnES').classList.toggle('active', lang === 'es');
+
+            const sections = document.querySelectorAll('.lang-fade');
+            sections.forEach(s => s.classList.add('fading'));
+
+            setTimeout(() => {
+                document.querySelectorAll('[data-en]').forEach(el => {
+                    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') return;
+                    el.textContent = el.getAttribute('data-' + lang);
+                });
+
+                document.querySelectorAll('[data-ph-en]').forEach(el => {
+                    el.placeholder = el.getAttribute('data-ph-' + lang);
+                });
+
+                document.documentElement.lang = lang;
+                sections.forEach(s => s.classList.remove('fading'));
+            }, 200);
+        }
+    </script>
+
+</body>
+</html>
